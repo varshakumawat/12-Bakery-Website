@@ -1,0 +1,304 @@
+@media (min-width:0) and (max-width:1023px){
+    #navbarmain ul{
+        width: 60%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: baseline;
+        padding-top: 25px;
+        padding-left: 10px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        transition: 500ms;
+        gap: 25px;
+        background-color: rgba(0, 0, 0, 0.9);
+        color: white;
+        font-size: 15px;
+    }
+
+    #navbarmain{
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+
+    #bannermain{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .bannermaintext p{
+        font-size: 20px;
+        padding: 0px 20px;
+    }
+
+    .bannermaintext h1{
+        font-size: 45px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px 20px;
+    }
+
+    .secondlayerright{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .secondlayerright img{
+        width: 40%;
+    }
+
+    .thirdlayerimages{
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 0px;
+
+    }
+    
+    .tlimg-1{
+        width: 50%;
+        padding: 0px 20px;
+        margin-top: 20px;
+    }
+
+    .allthreeblogs{
+        flex-direction: row;
+    }
+
+    .blog-1{
+        width: 32%;
+    }
+
+    .pizzamainarea{
+        flex-direction: row;
+    }
+
+    .pizzaleftside{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .pizzarightside{
+        width: 30%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .allteam{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .teamouter{
+        width: 48%;
+        margin-bottom: 35px; 
+    }
+
+    .teamouter2{
+        width: 48%;
+        margin-bottom: 35px; 
+    }
+
+    .teamouter3{
+        width: 48%;
+        margin-bottom: 35px; 
+    }
+
+    .teamouter4{
+        width: 48%;
+        margin-bottom: 35px; 
+    }
+
+    .mapresponsive{
+        padding-bottom: 50%;
+    }
+
+}
+
+
+
+
+@media (min-width:1025px) {
+
+    .stickmenu .menu-bg-layer{
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .stickmenu #navbarmain{
+        position: fixed;
+        top: 0;
+        max-width: 1400px;
+        z-index: 999;  
+    }
+
+    .topbar{
+        display: flex;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    .bannermaintext p{
+        padding: 0px 55px;
+    }
+
+    .bannermaintext h1{
+        font-size: 70px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 0px 25px;
+    }
+
+    .secondlayer{
+        flex-direction: row;
+        padding: 100px 20px;
+    }
+
+    .secondlayerleft{
+        width: 60%;
+        padding: 0px 40px;
+        align-items: start;
+    }
+
+    .slbtnmain{
+        justify-content: flex-start;
+    }
+
+    .secondlayerright{
+        width: 40%;
+    }
+
+    .thirdlayerimages{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .tlimg-1{
+        width: 23%;
+    }
+
+    .fourthlayermain{
+        flex-direction: row;
+        padding: 100px 20px;
+    }
+
+    .flleftside{
+        width: 60%;
+        padding-left: 20px;
+        padding-right: 50px;
+        align-items: start;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+
+    .flbtnmain{
+        justify-content: flex-start;
+    }
+
+    .flrigthside{
+        width: 40%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .allthreeblogs{
+        flex-direction: row;
+    }
+
+    .blog-1{
+        width: 32%;
+    }
+
+    .innerfooter{
+        flex-direction: row;
+    }
+
+    .footer-aboutus{
+        width: 33%;
+        align-items: start;
+    }
+
+    .footer-aboutus p{
+        text-align: start;
+    }
+
+    .newsletterbox{
+        justify-content: start;
+    }
+
+    #bannermainabout{
+        height: 45vh;
+    }
+    
+    .overlaybannerabout{
+        height: 45vh;
+    }
+
+    .bannermainabouttext{
+        height: 55%;
+        padding-top: 50px;
+    }
+
+    .pizzamainarea{
+        flex-direction: row;
+    }
+
+    .pizzaleftside{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    
+    .pizzarightside{
+        width: 30%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .allteam{
+        flex-direction: row;
+    }
+
+    .teamouter{
+        width: 23%;
+        margin-bottom: 0px; 
+    }
+
+    .teamouter2{
+        width: 23%;
+        margin-bottom: 0px; 
+    }
+
+    .teamouter3{
+        width: 23%;
+        margin-bottom: 0px; 
+    }
+
+    .teamouter4{
+        width: 23%;
+        margin-bottom: 0px; 
+    }
+
+    .contactandform{
+        flex-direction: row;
+    }
+
+    .contactdetail{
+        width: 32%;
+    }
+
+    .detailleft{
+        flex-direction: row;
+    }
+
+    .mapresponsive{
+        padding-bottom: 40%;
+    }
+}
